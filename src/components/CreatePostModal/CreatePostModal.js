@@ -27,9 +27,9 @@ const CreatePostModal = props => {
             <img src={postImage} className="card-img-top" alt="Post image"/>
             <div className="form-group">
               <label>Title</label>
-              <textarea onChange={event => setChangedTitle(event.target.value)} className="form-control title" rows="3">{changedTitle}</textarea>
+              <textarea onChange={event => setChangedTitle(event.target.value)} className="form-control title" rows="3" value={changedTitle}/>
               <label>Body</label>
-              <textarea onChange={event => setChangedBody(event.target.value)} className="form-control" rows="15">{changedBody}</textarea>
+              <textarea onChange={event => setChangedBody(event.target.value)} className="form-control" rows="15" value={changedBody}/>
             </div>
           </Modal.Body>
           <Modal.Footer>

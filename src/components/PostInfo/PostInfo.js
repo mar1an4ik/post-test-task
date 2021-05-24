@@ -20,7 +20,7 @@ const PostInfo = props => {
 
     return (
 
-      <div className="card mb-3" id="comment">
+      <div className="card mb-3" id="comment" key={email}>
         <div className="card-body">
           <h5 className="card-title">{name}</h5>
           <p className="card-text">{body}</p>
