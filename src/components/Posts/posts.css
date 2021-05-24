@@ -1,0 +1,18 @@
+img {
+   height: 200px;
+}
+
+.card {
+    margin: 0 50px;
+}
+
+.card-buttons {
+    text-align: center;
+}
+
+.card-text {
+
+}
+.card-title, .card-id {
+    text-align: center;
+}
