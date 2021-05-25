@@ -30,11 +30,11 @@ const Posts = props => {
   const [isOpenedCreateModal, setOpenedCreateModal] = useState(isCreateModalOpened);
 
   const closeEditModal = () => {
-    window.history.replaceState(null, null, "/")
+    window.location.replace(`#/`);
     setOpenedEditModal(false);
   };
   const closeCreateModal = () => {
-    window.history.replaceState(null, null, "/");
+    window.location.replace(`#/`);
     setOpenedCreateModal(false);
   };
 
